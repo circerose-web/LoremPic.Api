@@ -32,9 +32,9 @@ fetch('https://picsum.photos/500/500')
   console.log("randomImage.src:", randomImage.src);
 })
 }
-
+//this is a change to update github
 function getRandomPic2() {
-  fetch('https://picsum.photos/500/500') 
+  fetch('https://picsum.photos/490/500') 
   .then(function(response) {
     if (!response.ok){ 
       console.log(response);
